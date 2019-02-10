@@ -38,6 +38,10 @@
 * Strings: templates to generate Objective-C. Please check [the template's documentation](Documentation/templates/string/objc.md) for more information.  
   [Eric Slosser](https://github.com/Mr-Fixit)
   [SwiftGen/SwiftGen#378](https://github.com/SwiftGen/SwiftGen/pull/378)
+* All commands now have built-in Swift 5 templates.  
+  [David Jennes](https://github.com/djbe)
+  [#595](https://github.com/SwiftGen/SwiftGen/issue/595)
+  [#600](https://github.com/SwiftGen/SwiftGen/pull/600)
 
 ### Bug Fixes
 
