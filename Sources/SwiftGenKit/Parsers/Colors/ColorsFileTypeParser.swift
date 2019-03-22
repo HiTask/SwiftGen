@@ -46,6 +46,9 @@ extension Colors {
     if len == 6 {
       // There were no alpha component, assume 0xff
       value = (value << 8) | 0xff
+    } else if len == 8 {
+      // There was alpha component, treat it as in correct Android colors.xml format in first place - ARGB.
+      value = (value >> 24) | (value << 8)
     }
 
     return value
